@@ -1,0 +1,29 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Mutual Non-Disclosure Agreement ("Agreement") is made on 1 March 2026
+between Meridian Labs Ltd, a company registered in England and Wales
+("Discloser"), and Northwind Analytics Ltd ("Recipient").
+
+1. Purpose. The parties wish to explore a potential collaboration relating to
+   data-analytics services (the "Purpose") and may disclose confidential
+   information to one another for that Purpose.
+
+2. Confidential Information. "Confidential Information" means any information
+   disclosed by one party to the other that is marked confidential or that a
+   reasonable person would understand to be confidential.
+
+3. Obligations. The Recipient shall keep all Confidential Information secret and
+   shall not disclose it to any third party. Each party shall use the other
+   party's Confidential Information solely for the Purpose.
+
+4. Term. The obligations of confidentiality shall continue for a period of three
+   (3) years.
+
+5. Return of Materials. On written request, each party shall return or destroy
+   the other party's Confidential Information.
+
+6. Governing Law. This Agreement is governed by the laws of England and Wales.
+
+Signed for and on behalf of Meridian Labs Ltd and Northwind Analytics Ltd.
+
+[This is a fictional sample document created for demonstration only.]

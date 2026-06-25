@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "legal-doc-analyser"
+version = "0.2.0"
+description = "Structured, machine-readable analysis of legal documents (proof-of-concept; not legal advice)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Mahmoud Hussein" }]
+keywords = ["legal", "legaltech", "contract-analysis", "information-extraction", "anthropic", "claude"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "anthropic>=0.40",
+    "pydantic>=2.5",
+    "pypdf>=4.0",
+    "python-docx>=1.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+legal-doc-analyser = "legal_doc_analyser.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/legal_doc_analyser"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
