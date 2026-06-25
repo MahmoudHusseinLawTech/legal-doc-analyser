@@ -40,7 +40,7 @@ The boundary — *extract and flag, never advise* — is enforced in the schema 
 ## Install
 
 ```bash
-git clone https://github.com/<your-username>/legal-doc-analyser.git
+git clone https://github.com/MahmoudHusseinLawTech/legal-doc-analyser.git
 cd legal-doc-analyser
 pip install -e .                      # installs the `legal-doc-analyser` command
 export ANTHROPIC_API_KEY="your-key"   # never hard-code or commit your key
@@ -142,4 +142,4 @@ MIT — see [LICENSE](LICENSE).
 ## About
 
 Built by **Mahmoud Hussein**, an Egypt-qualified lawyer (registered at Appeal level), through AI-assisted development — directing and assembling AI-generated code on a foundation of Python, with the legal design and review his own.
-Portfolio: `<your portfolio URL>` · GitHub: `<your GitHub URL>`
+
